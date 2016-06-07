@@ -1,34 +1,27 @@
-// where all node routing takes place
-
-
-
-// app/routes.js
-
 // load the todo model
-var Todo = require('./models/todo');
+var Model = require('./models/model');
 
 // expose the routes to our app with module.exports
 module.exports = function(app) {
 
     // api ---------------------------------------------------------------------
-    // get all todos
-    app.get('/api/todos', function(req, res) {
+    // get all records
+    app.get('/api/model', function(req, res) {
 
     });
 
-    // create todo and send back all todos after creation
-    app.post('/api/todos', function(req, res) {
+    // create data record and send back all records after creation
+    app.post('/api/model', function(req, res) {
 
     });
 
-    // delete a todo
-    app.delete('/api/todos/:todo_id', function(req, res) {
+    // delete a data record
+    app.delete('/api/model/:model_id', function(req, res) {
 
     });
 
-    // application -------------------------------------------------------------
+    // application ------------------------------------------------------------- 
     app.get('*', function(req, res) {
-        res.sendfile('./public/index.html'); // load the single view file (angular will handle the page changes on the front-end)
+        res.sendFile('./public/index.html'); // load the single view file (angular will handle the page changes on the front-end)
     });
-
 };

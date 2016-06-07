@@ -31,3 +31,6 @@ Under construction
         - delete page
     - authentication
     - more todos?
+
+## Notes:
+    - Changed from using Angular node module because I couldn't serve it up somehow. Might come back to doing that

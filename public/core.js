@@ -1,5 +1,3 @@
-var angular = require('angular');
-
 var app = angular.module('mean', []);
 
 app.controller('starterController', ['$scope', function($scope){

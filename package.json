@@ -25,6 +25,9 @@
   "dependencies": {
     "angular": "^1.5.6",
     "express": "^4.13.4",
-    "mongoose": "^4.4.20"
+    "kerberos": "0.0.21",
+    "mongodb": "^2.1.21",
+    "mongoose": "^4.4.20",
+    "node-gyp": "^3.3.1"
   }
 }
