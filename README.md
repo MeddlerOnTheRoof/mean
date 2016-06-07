@@ -4,17 +4,17 @@ Practicing the mean stack
 Under construction
 
 ## File Structure:
-`= app: holds all our files for node components (models, routes)
-    = models: contains our models
+- _app_: holds all our files for node components (models, routes)
+    - _models_: contains our models
         - model.js: generic model for now
     - route.js: where routing is handled for the node application
-= config: all our configuration will be here
+- _config_: all our configuration will be here
     - database.js: configuration for mongoDB
-= public: holds all our files for our frontend angular application
+- _public_: holds all our files for our frontend angular application
     - core.js: all angular code for our app
     - index.html: main view
 - package.json: npm configuration to install dependencies/modules
-- server.js: Node configuration`
+- server.js: node configuration
 
 ## Todos:
     - build data models with mongoose
