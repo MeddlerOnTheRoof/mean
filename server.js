@@ -15,4 +15,4 @@ require('./app/routes')(app);
 
 // listen ======================================================================================
 app.listen(port);
-console.log("Aoo listening on port " + port);
+console.log("App listening on port " + port);
