@@ -1,5 +1,3 @@
-// angular application and front end stuff
-
 var angular = require('angular');
 
 var app = angular.module('mean', []);

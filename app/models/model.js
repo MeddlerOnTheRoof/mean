@@ -1,9 +1,6 @@
-// will change this to reflect our true data model later
+var mongoose = require('mongoose');
 
-    // load mongoose since we need it to define a model
-    var mongoose = require('mongoose');
-
-    module.exports = mongoose.model('Todo', {
-        text : String,
-        done : Boolean
-    });
+module.exports = mongoose.model('Todo', {
+    text : String,
+    done : Boolean
+});
