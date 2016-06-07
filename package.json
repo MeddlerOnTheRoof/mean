@@ -2,7 +2,7 @@
   "name": "mean",
   "version": "1.0.0",
   "description": "Solution for practicing the MEAN stack",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,5 +21,10 @@
   "bugs": {
     "url": "https://github.com/MeddlerOnTheRoof/mean/issues"
   },
-  "homepage": "https://github.com/MeddlerOnTheRoof/mean#readme"
+  "homepage": "https://github.com/MeddlerOnTheRoof/mean#readme",
+  "dependencies": {
+    "angular": "^1.5.6",
+    "express": "^4.13.4",
+    "mongoose": "^4.4.20"
+  }
 }
