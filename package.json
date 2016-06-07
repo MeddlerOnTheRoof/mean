@@ -1,0 +1,25 @@
+{
+  "name": "mean",
+  "version": "1.0.0",
+  "description": "Solution for practicing the MEAN stack",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MeddlerOnTheRoof/mean.git"
+  },
+  "keywords": [
+    "angular",
+    "node",
+    "express",
+    "mongodb"
+  ],
+  "author": "schanne.mj@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MeddlerOnTheRoof/mean/issues"
+  },
+  "homepage": "https://github.com/MeddlerOnTheRoof/mean#readme"
+}

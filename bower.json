@@ -1,0 +1,26 @@
+{
+  "name": "mean",
+  "description": "Solution for practicing the MEAN stack",
+  "main": "app.js",
+  "authors": [
+    "schanne.mj@gmail.com"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "angular",
+    "node",
+    "express",
+    "mongodb"
+  ],
+  "homepage": "https://github.com/MeddlerOnTheRoof/mean",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.6"
+  }
+}
