@@ -23,7 +23,8 @@ Under construction
     - build express routes
     - look into winston vs morgan for node logging
     - add .gitignore
-    - fix angular
+    - implement require.js with es6 import feature
+    - shift to typescript?
     - CRUD UI
         - create page
         - read page (single, list) with paging, sorting, filtering
