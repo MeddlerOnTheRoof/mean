@@ -17,6 +17,7 @@ Under construction
 - server.js: node configuration
 
 ## Todos:
+    - fix relative pathing of index.html with path.resolve and __dirname
     - build data models with mongoose
     - build out mongoDB
     - enter sample data
