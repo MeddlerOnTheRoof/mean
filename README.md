@@ -22,8 +22,10 @@ Under construction
     - add optional server-side querying (viz. paging, sorting, filtering)
     - configure server-side filtering with angular resource
     - look into winston vs morgan for node logging
+    - add favicon
     - add .gitignore
-    - fix angular
+    - implement require.js with es6 import feature
+    - shift to typescript?
     - CRUD UI
         - create page
         - read page (single, list) with paging, sorting, filtering (client side)
