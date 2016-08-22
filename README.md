@@ -17,20 +17,21 @@ Under construction
 - server.js: node configuration
 
 ## Todos:
-    - build data models with mongoose
-    - build out mongoDB
-    - enter sample data
-    - build express routes
+    - add datascript file
+    - build single city get route
+    - add optional server-side querying (viz. paging, sorting, filtering)
+    - configure server-side filtering with angular resource
     - look into winston vs morgan for node logging
     - add .gitignore
     - fix angular
     - CRUD UI
         - create page
-        - read page (single, list) with paging, sorting, filtering
+        - read page (single, list) with paging, sorting, filtering (client side)
         - update page
         - delete page
+        - beautify
     - authentication
-    - more todos?
+    - add persisted user settings (e.g. dark theme, client/server side querying)
 
 ## Notes:
     - Changed from using Angular node module because I couldn't serve it up somehow. Might come back to doing that
