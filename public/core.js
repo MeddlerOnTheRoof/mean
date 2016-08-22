@@ -1,10 +1,28 @@
-var app = angular.module('mean', []);
+var app = angular.module('mean', ['ngResource']);
 
-app.controller('starterController', ['$scope', function($scope){
-    $scope.title = 'Hello World!';
+// setting up our city resource
+app.factory('City', function($resource){
+    return $resource('/api/city');
+});
 
-    $scope.data = [
-        {   name: "Batman", alterEgo: "Bruce Wayne" },
-        {   name: "Superman", alterEgo: "Clark Kent" }
-    ];
+app.controller('cityController', ['$scope', 'City', function($scope, City){
+
+    // // get() returns a single city
+    // var city = City.get({ id: $scope.id }, function() {
+    //     console.log(city)
+    // });
+
+    // query() returns all the entries
+    var cities = City.query(function(){
+        
+    });
+
+    $scope.cities = cities;
+    
+    // // instantianting a resource class, saving
+    // $scope.newCity = new City();
+    // $scope.newCity.city = 'Philly';
+    // City.save($scope.newCity, function(){
+    //     // data saved. do something here
+    // });
 }]);

@@ -3,12 +3,12 @@
     <head>
         <title>Mean Stack Practice</title>
         <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+        <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular-resource.js"></script>
         <script type="text/javascript" src="core.js"></script>
     </head>
-    <body ng-controller="starterController">
-        <h1>{{ title }}</h1>
-        <ul ng-repeat="superhero in data">
-            <li>{{ superhero.name }} - {{ superhero.alterEgo }}</li>
+    <body ng-controller="cityController">
+        <ul ng-repeat="city in cities">
+            <li>{{city.city}}</li>
         </ul>
     </body>
 </html>
