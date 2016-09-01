@@ -3,6 +3,61 @@ Practicing the mean stack
 
 Under construction
 
+## Installation Instructions
+Because I am primarily a .NET developer these instructions will be geared towards Windows however you should have an easier time on Linux as this stack uses dependencies that were developed primarily with Linux in mind.
+
+### Installing mongoDB
+1. Go to https://www.mongodb.com/download-center?jmp=nav#community
+2. Windows Server 2008 64-bit, without SSL support x64 will serve our purpooses so select that and hit download
+3. Run the installer, accept the agreement to give them everything you own, and choose the complete setup (you want everything you can get after that trade!)
+4. At this point we are done installing Mongo and won't need it until later 
+
+### Installing Node
+1. Go to https://nodejs.org/en/
+2. Choose the v4.5.0 LTS because we are afraid of instability in our fragile lives
+3. Run through the wizard and sell these people your soul in the agreement as well (suckers dont know you already traded it away)
+4. Just keep all the features because we don't want to waste brain power thinking about what we want or don't want, who knows maybe we'll need it later
+5. Hit finish and we are done with node for now
+
+### Installing Git
+1. Go to https://git-scm.com/
+2. Slap the download button
+3. Run the virus exe it gives you (it should say Git-2.9.3.2-64-bit.exe)
+4. Walk through the dialog, leaving Components as is, PATH environment option as is, and line ending conversions as is (unless you're brave and want to tinker)
+5. I use cmder for my console interface so I just let it use the windows default console so I dont use the Mintty feature but if you need something shiny you can go with Mintty instead
+6. Lastly, I leave the two extra options for caching and credential management checked because I am lazy and like speedy source control however you may find that the credential manager acts funny at SEI or that caching is not your style, I leave these choices to your discretion
+7. Fire the installation
+8. Unless you care about release notes you can uncheck that and hit finish
+9. We have git installed!
+
+### Setting Up this Project
+1. Set up a directory of your choice, I am going to call mine "mean"
+2. Using your Windows console of preference cd into the directory you just set up
+3. Let us check how the installation of node and git went with the following commands (the response you should get is beneath them):
+	- node -v
+		- v4.5.0
+	- npm -v
+		- 3.9.6
+	- git --version
+		- git version 2.9.3.windows.2
+4. You can clone the project from my github with the following command: git clone https://github.com/MeddlerOnTheRoof/mean.git
+5. You can then cd into the directory that is downloaded called "mean" (I am apparently not very creative)
+6. Run the following command to install dependencies: npm install
+7. Before we proceed we need to turn on MongoDB, start a new windows console instance (we'll want to use this one in a bit)
+8. In your new console, cd into your MongoDB bin (probably the path: C:\Program Files\MongoDB\Server\3.2\bin)
+9. Run the command: mongod
+	- You may get the exception "exception in initAndListen: 29 Data directory C:\data\db not found., terminating"
+	- if you get that exception the fix is simple, create the directory!
+10. if it is successfull it will tell you it is waiting for connections on 27017
+11. Next we need to enter data, inside the project there is a db_scripts folder containing a single insert script full of city data, copy that and paste it into your MongoDB bin directory (same path as mongod)
+12. Now, create another instance of windows console and cd in your MongoDB bin again
+13. From your console, fire the following command: mongo mean-example insert_cities.js
+	- if it is successful it should say it is connecting to: mean-example
+	- then it will say Insert completed successfully.
+14. Back to our original command console, let's boot up our node server with the following command: node server.js
+15. Let's navigate to localhost:8642
+16. Success! Our application is printing out the names of a lot of cities
+
 ## File Structure:
 - _app_: holds all our files for node components (models, routes)
     - _models_: contains our models
