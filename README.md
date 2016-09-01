@@ -167,35 +167,35 @@ Cons
 
 ## Links
 ### mean
-    - http://mean.io/#!/
-    - http://blog.mongodb.org/post/49262866911/the-mean-stack-mongodb-expressjs-angularjs-and
+    - [http://mean.io/#!/]
+    - [http://blog.mongodb.org/post/49262866911/the-mean-stack-mongodb-expressjs-angularjs-and]
 #### CodeSchool
-    - https://www.codeschool.com/screencasts/mean-stack-firing-a-tracer-bullet
-    - https://www.codeschool.com/screencasts/mean-stack-anchor-links-routes-and-medals
-    - https://www.codeschool.com/search?utf8=%E2%9C%93&query=mean
+    - [https://www.codeschool.com/screencasts/mean-stack-firing-a-tracer-bullet]
+    - [https://www.codeschool.com/screencasts/mean-stack-anchor-links-routes-and-medals]
+    - [https://www.codeschool.com/search?utf8=%E2%9C%93&query=mean]
 #### ScotchIO
-    - https://scotch.io/tutorials/setting-up-a-mean-stack-single-page-application
-    - https://scotch.io/tutorials/node-and-angular-to-do-app-application-organization-and-structure
-    - https://scotch.io/tutorials/making-mean-apps-with-google-maps-part-i
-    - https://scotch.io/tutorials/making-mean-apps-with-google-maps-part-ii
-    - https://scotch.io/tutorials/deploying-a-mean-app-to-amazon-ec2-part-1
-    - https://scotch.io/tutorials/deploying-a-mean-app-to-amazon-ec2-part-2
+    - [https://scotch.io/tutorials/setting-up-a-mean-stack-single-page-application]
+    - [https://scotch.io/tutorials/node-and-angular-to-do-app-application-organization-and-structure]
+    - [https://scotch.io/tutorials/making-mean-apps-with-google-maps-part-i]
+    - [https://scotch.io/tutorials/making-mean-apps-with-google-maps-part-ii]
+    - [https://scotch.io/tutorials/deploying-a-mean-app-to-amazon-ec2-part-1]
+    - [https://scotch.io/tutorials/deploying-a-mean-app-to-amazon-ec2-part-2]
 ### mongoDB
-    - https://docs.mongodb.com/manual/
-    - http://mongoosejs.com/
-    - https://www.codeschool.com/courses/the-magical-marvels-of-mongodb
-    - https://university.mongodb.com/?_ga=1.59703789.1760068318.1441899177
-    - https://scotch.io/tutorials/an-introduction-to-mongodb
+    - [https://docs.mongodb.com/manual/]
+    - [http://mongoosejs.com/]
+    - [https://www.codeschool.com/courses/the-magical-marvels-of-mongodb]
+    - [https://university.mongodb.com/?_ga=1.59703789.1760068318.1441899177]
+    - [https://scotch.io/tutorials/an-introduction-to-mongodb]
 ### NodeJS & ExpressJS
-    - https://www.toptal.com/nodejs/why-the-hell-would-i-use-node-js
-    - https://nodejs.org/en/about/
-    - https://expressjs.com/
-    - https://www.codeschool.com/courses/real-time-web-with-node-js
-    - https://www.codeschool.com/courses/building-blocks-of-express-js
-    - https://scotch.io/tutorials/build-a-restful-api-using-node-and-express-4
+    - [https://www.toptal.com/nodejs/why-the-hell-would-i-use-node-js]
+    - [https://nodejs.org/en/about/]
+    - [https://expressjs.com/]
+    - [https://www.codeschool.com/courses/real-time-web-with-node-js]
+    - [https://www.codeschool.com/courses/building-blocks-of-express-js]
+    - [https://scotch.io/tutorials/build-a-restful-api-using-node-and-express-4]
 ### AngularJS
-    - https://angularjs.org/
-    - http://www.w3schools.com/angular/angular_intro.asp
-    - https://thinkster.io/a-better-way-to-learn-angularjs
-    - https://www.codeschool.com/courses/shaping-up-with-angular-js
-    - https://www.codeschool.com/courses/staying-sharp-with-angular-js
+    - [https://angularjs.org/]
+    - [http://www.w3schools.com/angular/angular_intro.asp]
+    - [https://thinkster.io/a-better-way-to-learn-angularjs]
+    - [https://www.codeschool.com/courses/shaping-up-with-angular-js]
+    - [https://www.codeschool.com/courses/staying-sharp-with-angular-js]
